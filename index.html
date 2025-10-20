@@ -10,10 +10,10 @@
 
 <title>Chris Kankiewicz's Resume</title>
 
-<div id="app" class="flex flex-col w-full p-4">
+<div id="app" class="flex flex-col w-full px-2 py-4 sm:px-4">
     <div class="flex flex-col gap-4 container mx-auto max-w-4xl px-4">
-        <div class="flex justify-between items-center">
-            <div class="flex flex-col gap-2">
+        <div class="flex flex-col justify-between items-center gap-2 sm:flex-row">
+            <div class="flex flex-col items-center gap-2 sm:items-start">
                 <h1 class="font-montserrat font-light text-3xl">Chris Kankiewicz</h1>
 
                 <div class="font-light text-sm">
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col items-end gap-2 font-light text-sm">
+            <div class="flex flex-col items-center gap-2 font-light text-sm sm:items-end">
                 <a href="mailto:Chris@ChrisKankiewicz.com" class="inline-block">
                     Chris@Kankiewicz.com
                 </a>
@@ -51,7 +51,7 @@
                 Skills
             </h2>
 
-            <ul class="list-disc columns-1 ml-8 text-sm/6 sm:columns-3 md:text-base/6">
+            <ul class="list-disc columns-1 ml-8 text-base/6 sm:columns-2 md:columns-3">
                 <li>PHP 8 (and 7, 5)</li>
                 <li>HTML</li>
                 <li>CSS / SASS / Tailwind</li>
@@ -235,10 +235,10 @@
                 Education
             </h2>
 
-            <div class="flex justify-between gap-4">
-                <div class="basis-1/2 space-y-2">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div class="space-y-2">
                     <div class="space-y-1">
-                        <h3 class="font-semibold">DeVry University</h3>
+                        <h3 class="text-lg font-semibold">DeVry University</h3>
 
                         <div class="text-sm text-slate-500">
                             July 2005 - Feburary 2008
@@ -250,9 +250,9 @@
                     </ul>
                 </div>
 
-                <div class="basis-1/2 space-y-2">
+                <div class="space-y-2">
                     <div class="space-y-1">
-                        <h3 class="font-semibold">Shadow Mountain High School</h3>
+                        <h3 class="text-lg font-semibold">Shadow Mountain High School</h3>
 
                         <div class="text-sm text-slate-500">
                             July 2001 - May 2005
@@ -289,12 +289,12 @@
                 Projects
             </h2>
 
-            <div class="flex flex-wrap">
-                <div class="basis-1/2 space-y-2">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-semibold">Directory Lister</h3>
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div class="space-y-2">
+                    <div class="flex flex-col justify-between items-start md:flex-row md:items-center">
+                        <h3 class="text-lg font-semibold">Directory Lister</h3>
 
-                        <a href="https://www.directorylister.com" class="inline-block text-sm">
+                        <a href="https://www.directorylister.com" class="inline-block text-sm text-slate-500">
                             https://www.directorylister.com
                         </a>
                     </div>
@@ -304,11 +304,11 @@
                     </p>
                 </div>
 
-                <div class="basis-1/2 space-y-2">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-semibold">Twine</h3>
+                <div class="space-y-2">
+                    <div class="flex flex-col justify-between items-start md:flex-row md:items-center">
+                        <h3 class="text-lg font-semibold">Twine</h3>
 
-                        <a href="https://twine.phlak.net" class="inline-block text-sm">
+                        <a href="https://twine.phlak.net" class="inline-block text-sm text-slate-500">
                             https://twine.phlak.net
                         </a>
                     </div>
@@ -318,11 +318,11 @@
                     </p>
                 </div>
 
-                <div class="basis-1/2 space-y-2">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-semibold">SemVer</h3>
+                <div class="space-y-2">
+                    <div class="flex flex-col justify-between items-start md:flex-row md:items-center">
+                        <h3 class="text-lg font-semibold">SemVer</h3>
 
-                        <a href="https://phlak.link/semver" class="inline-block text-sm">
+                        <a href="https://phlak.link/semver" class="inline-block text-sm text-slate-500">
                             https://phlak.link/semver
                         </a>
                     </div>
@@ -332,11 +332,11 @@
                     </p>
                 </div>
 
-                <div class="basis-1/2 space-y-2">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-semibold">Splat</h3>
+                <div class="space-y-2">
+                    <div class="flex flex-col justify-between items-start md:flex-row md:items-center">
+                        <h3 class="text-lg font-semibold">Splat</h3>
 
-                        <a href="https://phlak.link/splat" class="inline-block text-sm">
+                        <a href="https://phlak.link/splat" class="inline-block text-sm text-slate-500">
                             https://phlak.link/splat
                         </a>
                     </div>
@@ -346,11 +346,11 @@
                     </p>
                 </div>
 
-                <div class="basis-1/2 space-y-2">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-semibold">Config</h3>
+                <div class="space-y-2">
+                    <div class="flex flex-col justify-between items-start md:flex-row md:items-center">
+                        <h3 class="text-lg font-semibold">Config</h3>
 
-                        <a href="https://phlak.link/config " class="inline-block text-sm">
+                        <a href="https://phlak.link/config " class="inline-block text-sm text-slate-500">
                             https://phlak.link/config
                         </a>
                     </div>
@@ -360,11 +360,11 @@
                     </p>
                 </div>
 
-                <div class="basis-1/2 space-y-2">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-semibold">Stash</h3>
+                <div class="space-y-2">
+                    <div class="flex flex-col justify-between items-start md:flex-row md:items-center">
+                        <h3 class="text-lg font-semibold">Stash</h3>
 
-                        <a href="https://phlak.link/stash" class="inline-block text-sm">
+                        <a href="https://phlak.link/stash" class="inline-block text-sm text-slate-500">
                             https://phlak.link/stash
                         </a>
                     </div>
@@ -374,11 +374,11 @@
                     </p>
                 </div>
 
-                <div class="basis-1/2 space-y-2">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-semibold">Chronometer</h3>
+                <div class="space-y-2">
+                    <div class="flex flex-col justify-between items-start md:flex-row md:items-center">
+                        <h3 class="text-lg font-semibold">Chronometer</h3>
 
-                        <a href="https://phlak.link/chrono" class="inline-block text-sm">
+                        <a href="https://phlak.link/chrono" class="inline-block text-sm text-slate-500">
                             https://phlak.link/chrono
                         </a>
                     </div>
@@ -388,11 +388,11 @@
                     </p>
                 </div>
 
-                <div class="basis-1/2 space-y-2">
-                    <div class="flex justify-between items-center">
-                        <h3 class="font-semibold">vueColorClock</h3>
+                <div class="space-y-2">
+                    <div class="flex flex-col justify-between items-start md:flex-row md:items-center">
+                        <h3 class="text-lg font-semibold">vueColorClock</h3>
 
-                        <a href="https://colorclock.phlak.net/" class="inline-block text-sm">
+                        <a href="https://colorclock.phlak.net" class="inline-block text-sm text-slate-500">
                             https://colorclock.phlak.net/
                         </a>
                     </div>
