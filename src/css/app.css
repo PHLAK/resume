@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/Inter.woff2") format("woff2");
+}
+
+@theme {
+    --color-bluesky: #0886FE;
+    --color-github: #171515;
+
+    --font-sans: Inter;
+    --font-montserrat: Montserrat;
+}
+
+a {
+    @apply hover:underline;
+}
