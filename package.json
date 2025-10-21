@@ -12,5 +12,8 @@
     "@tailwindcss/vite": "^4.1.5",
     "tailwindcss": "^4.1.8",
     "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-pro": "^7.1.0"
   }
 }

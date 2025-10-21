@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@import "@fortawesome/fontawesome-pro/css/fontawesome.css";
+@import "@fortawesome/fontawesome-pro/css/light.css";
+@import "@fortawesome/fontawesome-pro/css/brands.css";
+
 @font-face {
     font-family: "Montserrat";
     src: url("/fonts/Montserrat.woff2") format("woff2");
@@ -12,7 +16,9 @@
 
 @theme {
     --color-bluesky: #0886FE;
-    --color-github: #171515;
+    --color-github: #24292F;
+    --color-linkedin: #2977C9;
+    --color-twitter: #1DA1F2;
 
     --font-sans: Inter;
     --font-montserrat: Montserrat;

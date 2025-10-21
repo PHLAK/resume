@@ -6,4 +6,9 @@ export default defineConfig({
     plugins: [
         tailwindcss(),
     ],
+    resolve: {
+        alias: {
+            '@node_modules': 'node_modules',
+        }
+    }
 });
