@@ -27,3 +27,51 @@
 a {
     @apply hover:underline;
 }
+
+.section-header {
+    @apply block bg-slate-800 font-montserrat font-light text-xl text-white px-4 p-2 scroll-mt-4 print:bg-inherit print:text-black print:p-0;
+}
+
+.experience-header {
+    @apply flex flex-col sm:flex-row sm:items-center sm:gap-2;
+}
+
+.experience-title {
+    @apply text-lg font-semibold;
+}
+
+.experience-subtitle {
+    @apply text-slate-600 text-sm;
+}
+
+.experience-metadata {
+    @apply text-sm text-slate-500 space-x-1;
+}
+
+.education-header {
+    @apply space-y-1;
+}
+
+.education-title {
+    @apply text-lg font-semibold;
+}
+
+.education-metadata {
+    @apply text-sm text-slate-500;
+}
+
+.project-header {
+    @apply flex flex-col justify-between items-start md:flex-row md:items-center;
+}
+
+.project-title {
+    @apply text-lg font-semibold;
+}
+
+.project-link {
+    @apply inline-block text-sm text-slate-500;
+}
+
+.social-icon {
+    @apply transition-all hover:scale-125;
+}
