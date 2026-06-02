@@ -24,6 +24,10 @@
     --font-montserrat: Montserrat;
 }
 
+html {
+    @apply scheme-light-dark
+}
+
 a {
     @apply hover:underline;
 }
@@ -41,11 +45,11 @@ a {
 }
 
 .experience-subtitle {
-    @apply text-slate-600 text-sm;
+    @apply text-slate-600 text-sm dark:text-slate-400;
 }
 
 .experience-metadata {
-    @apply text-sm text-slate-500 space-x-1;
+    @apply text-sm text-slate-500 space-x-1 dark:text-slate-400;
 }
 
 .education-header {
@@ -57,7 +61,7 @@ a {
 }
 
 .education-metadata {
-    @apply text-sm text-slate-500;
+    @apply text-sm text-slate-500 dark:text-slate-400;
 }
 
 .project-header {
@@ -69,7 +73,7 @@ a {
 }
 
 .project-link {
-    @apply inline-block text-sm text-slate-500;
+    @apply inline-block text-sm text-slate-500 dark:text-slate-400;
 }
 
 .social-icon {
