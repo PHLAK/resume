@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.2",
+    "@tailwindcss/vite": "^4.3.3",
     "tailwindcss": "^4.2.2",
-    "vite": "^8.1.2"
+    "vite": "^8.2.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^7.2.0"
